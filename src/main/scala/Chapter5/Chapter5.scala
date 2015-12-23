@@ -1,4 +1,4 @@
-object MyModule {
+object MyReNewModule {
 	sealed trait Stream[+A]{
 		def toList: List[A] = this match {
 			case Cons(h,t) => h() :: t().toList

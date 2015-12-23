@@ -1,4 +1,4 @@
-object MyModule {
+object MyOtherModule {
   trait RNG {
     def nextInt: (Int, RNG)
   }
